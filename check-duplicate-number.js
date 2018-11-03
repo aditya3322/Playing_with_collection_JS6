@@ -14,4 +14,4 @@ let checkDuplicate = () => {
 }
 
 let duplicates = checkDuplicate();
-console.log("Contains duplicate?: " + duplicates.length > 0);
+console.log(`Contains duplicate?: ${duplicates.length > 0}`);

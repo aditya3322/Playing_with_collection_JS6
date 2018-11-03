@@ -20,4 +20,4 @@ for(let key in duplicates) {
 		resultArr.push(parseInt(key.replace('item_', '')))
 	}
 }
-console.log("Result: "+resultArr);
+console.log(`Result: ${resultArr}`);
