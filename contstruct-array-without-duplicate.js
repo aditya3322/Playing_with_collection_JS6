@@ -4,9 +4,9 @@ let numbers = [10, 20, 20, 40, 10, 60, 60, 80, 70, 10];
 let constructArrWithoutDuplicate = function() {
 	let duplicates = [];
 	numbers.forEach(num => {
-		if(duplicates[`item_${num}`] == undefined){
+		if(duplicates[`item_${num}`] == undefined) {
 			duplicates[`item_${num}`] = 1;
-		}else{
+		} else {
 			duplicates[`item_${num}`] += 1;
 		}
 	});
