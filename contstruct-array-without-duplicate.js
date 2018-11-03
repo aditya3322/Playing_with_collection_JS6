@@ -1,17 +1,16 @@
 
-let arr = [10,20,20,40,10,60,60,80,70,10];
+let numbers = [10, 20, 20, 40, 10, 60, 60, 80, 70, 10];
 
 let constructArrWithoutDuplicate = function() {
-	let duplicates= [];
+	let duplicates = [];
 
-	arr.forEach(num=>{
-		if(duplicates[`item_${num}`]==undefined){
-			duplicates[`item_${num}`]=1;
+	numbers.forEach(num => {
+		if(duplicates[`item_${num}`] == undefined){
+			duplicates[`item_${num}`] = 1;
 		}else{
-			duplicates[`item_${num}`]+=1;
+			duplicates[`item_${num}`] += 1;
 		}
 	});
-	console.log(duplicates);
 	return duplicates;
 }
 
