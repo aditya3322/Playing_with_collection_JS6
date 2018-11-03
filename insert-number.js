@@ -44,4 +44,4 @@ let insertUsingBinarySearch = (number) => {
 }
 
 console.log(`Insert number using Iteration ${insertUsingIteration(55)}`);
-console.log(`Insert number using Iteration ${insertUsingBinarySearch(55)}`);
+console.log(`Insert number using Recursion ${insertUsingBinarySearch(55)}`);
