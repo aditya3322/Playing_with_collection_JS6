@@ -1,7 +1,7 @@
 
 let numbers = [10, 20, 20, 40, 10, 60, 60, 80, 70, 10];
 
-let checkDuplicate = function() {
+let checkDuplicate = () => {
 	let duplicates = [];
 	numbers.forEach(num => {
 		if(duplicates[num] == undefined){
