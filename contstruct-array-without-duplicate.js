@@ -14,10 +14,10 @@ let constructArrWithoutDuplicate = () => {
 }
 
 let duplicates = constructArrWithoutDuplicate();
-let resultArr = []
+let resultArr = [];
 for(let key in duplicates) {
 	if(duplicates[key] == 1) {
-		resultArr.push(parseInt(key.replace('item_', '')))
+		resultArr.push(parseInt(key.replace('item_', '')));
 	}
 }
 console.log(`Result: ${resultArr}`);
